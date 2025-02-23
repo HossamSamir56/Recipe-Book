@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="cursor: pointer" routerLink="/recipes"
+        >Redipe Book</a
+      >
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a routerLink="/recipes" routerLinkActive="active" class="nav-link"
+            >Recipes</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            routerLink="/shopping-list"
+            routerLinkActive="active"
+            class="nav-link"
+            >Shopping List</a
+          >
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown" appGnrat>
+          <a
+            class="nav-link dropdown-toggle"
+            style="cursor: pointer"
+            role="button"
+            >Manage</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" style="cursor: pointer">Save Data</a>
+            </li>
+            <li>
+              <a class="dropdown-item" style="cursor: pointer">Fetch Data</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
